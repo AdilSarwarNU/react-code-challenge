@@ -1,9 +1,10 @@
 # PokeDex - React Coding Challenge
 Simulation Based Listing of Pokemons
+I've used random logic to show **error** OR show list of Pokemon in the list.
+
 ## PokeDex
 
 ## Project Setup
-
 > npm install (to install dependencies)
 
 ## Run Project 
@@ -20,4 +21,3 @@ This will generate a **build** folder
 
 ------------------------------------------------------------
 
-The project use random logic to show the json and sometimes show error 
