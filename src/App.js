@@ -1,12 +1,19 @@
-import './App.css';
+import React from 'react'
+import Footer from './components/footers/Footer';
+import Header from "./components/headers/Header";
+import PoleList from './components/lists/PoleList';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          Pokedex 
-      </header>
-    </div>
+    <  >
+      <Header />
+      <PoleList />
+      <br />
+      <br />
+      <Footer />
+    </>
   );
 }
 

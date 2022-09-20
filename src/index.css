@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bg-light-dark {
+  background-color: #3F3F3F;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+span.success {
+  background-color: #83C27E;
+  font-weight: 300;
+}
+
+span.pink {
+  font-weight: 300;
+  background-color: #C27EBC;
+}
+
+span.blue {
+  background-color: #1C1CD9;
+  font-weight: 300;
+}
+
+span.orange {
+  background-color: #F08804;
+  font-weight: 300;
+}
+
+span.dark-green {
+  background-color: #99B102;
+  font-weight: 300;
+}
+
+
+.poke-heading {
+  font-size: 67px;
+  font-weight: 300;
+}
+
+.pokedex-card {
+  background-color: #747474;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  cursor: pointer;
+  height: 100%;
+  transform-origin: center;
+  position: relative;
+}
+
+.api-loader-div {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokedex-card h4 {
+  font-weight: 300;
+}
+
+.pokedex-card img {
+  width: 80%;
+  margin: auto;
+  max-width: 160px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.pokedex-card:hover img {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
