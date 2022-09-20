@@ -5,13 +5,15 @@ I've used random logic to show **error** OR show list of Pokemon in the list.
 ## PokeDex
 
 ## Project Setup
-> npm install (to install dependencies)
+> **npm install** (to install dependencies)
 
 ## Run Project 
-
-> **npm start**
+> 1. **npm install**
+> 2. **npm start**
 OR 
-> go to **build** > run **index.html**
+> 1. **npm install**
+> 2. **npm run build**
+> 3. go to **build** > run **index.html**
 
 ## Build Project
 
