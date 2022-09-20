@@ -24,7 +24,7 @@ let PoleList = () => {
                 <>
                     {!error ? <ApiError /> : (
                         <div className="container-fluid">
-                            <div className="row px-5 ">
+                            <div className="row px-3 ">
                                 {data?.entries.map((data, index) => <PokeCard data={data} index={index} key={index} />)}
                             </div>
                         </div >
