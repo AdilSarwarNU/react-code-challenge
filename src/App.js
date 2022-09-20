@@ -1,18 +1,14 @@
 import React from 'react'
 import Footer from './components/footers/Footer';
 import Header from "./components/headers/Header";
-import PoleList from './components/lists/PoleList';
-
-
+import PokemonList from './components/lists/PokemonList';
 
 function App() {
   return (
-    <  >
-      <Header />
-      <PoleList />
-      <br />
-      <br />
-      <Footer />
+    <>
+      <Header/>
+        <PokemonList/>
+      <Footer/>
     </>
   );
 }
